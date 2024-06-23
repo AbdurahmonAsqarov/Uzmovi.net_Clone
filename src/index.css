@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #131a20;
+    color: #fff;
+} 
+.movie_btn{
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+    display: inline-block;
+}
+.movie_btn:hover{
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+.shadow-handle:hover{
+    box-shadow: 4px 3px 20px 1px #ffffff54;
+}
+.search{
+    padding: 10px ;
+    border:none ;
+    border-radius: 20px;
+    outline: none;
+    background-color: #131a20;
+}
+@media (min-width: 768px) {
+    
+}

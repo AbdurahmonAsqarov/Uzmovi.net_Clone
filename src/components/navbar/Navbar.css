@@ -1,0 +1,11 @@
+.killer{
+    margin-right: 0px;
+    margin-left: 100px;
+}
+.ghost{
+    margin-right: 200px ;
+    margin-left: 200px;
+}
+li{
+    font-size: 18px;
+}
